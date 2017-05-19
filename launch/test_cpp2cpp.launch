@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="performance_tests" name="cpp_pub" type="cpp_pub"/>
+
+  <node pkg="performance_tests" name="cpp_sub" type="cpp_sub" output="screen"/>
+
+</launch>
